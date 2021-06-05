@@ -1,0 +1,38 @@
+.wrapper {
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.game-main {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+
+.cell {
+  border: 1px solid gray;
+  font-size: 120px;
+  line-height: 140px;
+  user-select: none;
+}
+
+#restart {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  font-size: 1.2em;
+  border: none;
+  font-family: "Gloria Hallelujah", cursive;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+#restart:hover {
+  background-color: red;
+  color: white;
+}
+
+#restart:hover {
+  opacity: 0.6;
+}
